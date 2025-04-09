@@ -154,6 +154,12 @@ body {
     margin-right: 5px;
 }
 
+.favorite-form .gender-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .favorite-form button {
     background: #ff7e5f;
     color: #fff;
