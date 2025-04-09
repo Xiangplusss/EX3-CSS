@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    background-color: #f7a072;
     color: #333;
 }
 
@@ -35,16 +35,12 @@ body {
 
 .links a {
     margin: 0 15px;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 5px 10px;
-    border-radius: 5px;
 }
 
 .links a:hover {
     text-decoration: underline;
-    background: rgba(0, 0, 0, 0.7);
 }
 
 .links h2 {
@@ -52,7 +48,7 @@ body {
     margin-top: 40px;
     margin-bottom: 10px;
     font-weight: bold;
-    color: #fff;
+    color: #8b0000;
 }
 
 .links h3 {
@@ -60,7 +56,7 @@ body {
     margin-top: 5px;
     margin-bottom: 20px;
     font-style: italic;
-    color: #fff;
+    color: #8b0000;
 }
 
 .links video {
@@ -70,8 +66,15 @@ body {
     margin-right: auto;
     width: 80%;
     max-width: 800px;
-    border: 5px solid #fff;
-    border-radius: 10px;
+    border: 5px solid #f7a072;
+}
+
+.video-highlight {
+    background-color: #fff8dc;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: #8b0000;
 }
 
 .character-grid {
@@ -84,8 +87,7 @@ body {
 .character {
     text-align: center;
     margin: 20px 0;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
+    background-color: #fff8dc;
     padding: 10px;
 }
 
@@ -95,7 +97,6 @@ body {
     max-width: 150px;
     max-height: 150px;
     margin: 15px 0;
-    border-radius: 50%;
 }
 
 .character p {
@@ -105,14 +106,13 @@ body {
 
 .favorite-character {
     padding: 20px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
+    background-color: #fff8dc;
     margin: 20px;
 }
 
 .favorite-character h2 {
     margin-bottom: 20px;
-    color: #333;
+    color: #8b0000;
 }
 
 .favorite-form {
@@ -125,7 +125,6 @@ body {
     width: 100%;
     height: 70px;
     border: 1px solid #ccc;
-    border-radius: 5px;
     padding: 5px;
 }
 
@@ -134,43 +133,25 @@ body {
     font-weight: bold;
 }
 
-.favorite-form label {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
 .favorite-form select,
 .favorite-form input[type="text"],
 .favorite-form input[type="date"],
 .favorite-form input[type="email"] {
     width: 100%;
     border: 1px solid #ccc;
-    border-radius: 5px;
     padding: 5px;
 }
 
-.favorite-form input[type="radio"] {
-    margin-right: 5px;
-}
-
-.favorite-form .gender-label {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
 .favorite-form button {
-    background: #ff7e5f;
+    background-color: #8b0000;
     color: #fff;
     border: none;
-    border-radius: 5px;
     padding: 10px;
     cursor: pointer;
 }
 
 .favorite-form button:hover {
-    background: #feb47b;
+    background-color: #660000;
 }
 
 .special {
@@ -182,9 +163,8 @@ body {
 footer {
     margin-top: 30px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.5);
+    background-color: #8b0000;
     padding: 10px;
-    border-radius: 10px;
 }
 
 footer p {
